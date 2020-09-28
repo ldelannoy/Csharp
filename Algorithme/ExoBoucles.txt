@@ -1,0 +1,13 @@
+﻿// tant que -> While et jusqu'à -> do while et pour...faire -> for
+            /* int i=1, Somme=i;
+
+
+             while (Somme < 100)
+             {
+                 i=i+1;
+                 Somme = Somme + i;
+             }
+             Console.WriteLine("la valeur de i est " + i);*/
+            /*int i;
+            for (i = 1; i < 100; i++);
+            Console.WriteLine(i);*/

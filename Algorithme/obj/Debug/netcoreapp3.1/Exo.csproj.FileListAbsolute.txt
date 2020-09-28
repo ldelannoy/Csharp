@@ -1,0 +1,13 @@
+C:\Users\laure\source\repos\Algorithme\Algorithme\bin\Debug\netcoreapp3.1\Exo.exe
+C:\Users\laure\source\repos\Algorithme\Algorithme\bin\Debug\netcoreapp3.1\Exo.deps.json
+C:\Users\laure\source\repos\Algorithme\Algorithme\bin\Debug\netcoreapp3.1\Exo.runtimeconfig.json
+C:\Users\laure\source\repos\Algorithme\Algorithme\bin\Debug\netcoreapp3.1\Exo.runtimeconfig.dev.json
+C:\Users\laure\source\repos\Algorithme\Algorithme\bin\Debug\netcoreapp3.1\Exo.dll
+C:\Users\laure\source\repos\Algorithme\Algorithme\bin\Debug\netcoreapp3.1\Exo.pdb
+C:\Users\laure\source\repos\Algorithme\Algorithme\obj\Debug\netcoreapp3.1\Exo.csprojAssemblyReference.cache
+C:\Users\laure\source\repos\Algorithme\Algorithme\obj\Debug\netcoreapp3.1\Exo.AssemblyInfoInputs.cache
+C:\Users\laure\source\repos\Algorithme\Algorithme\obj\Debug\netcoreapp3.1\Exo.AssemblyInfo.cs
+C:\Users\laure\source\repos\Algorithme\Algorithme\obj\Debug\netcoreapp3.1\Exo.csproj.CoreCompileInputs.cache
+C:\Users\laure\source\repos\Algorithme\Algorithme\obj\Debug\netcoreapp3.1\Exo.dll
+C:\Users\laure\source\repos\Algorithme\Algorithme\obj\Debug\netcoreapp3.1\Exo.pdb
+C:\Users\laure\source\repos\Algorithme\Algorithme\obj\Debug\netcoreapp3.1\Exo.genruntimeconfig.cache

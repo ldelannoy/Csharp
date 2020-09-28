@@ -1,0 +1,89 @@
+﻿ /*Algorithme Pythagore
+             * Variables
+             *         choix, a, b, c, e, f, g, H, I, J, A : réel
+             *                                
+             * Début
+             *         écrire("1 -> Donner la valeur de l'hypothénuse")
+             *         écrire("2 -> Donner 3 valeurs de côté pour savoir si votre triangle est rectangle")
+             *         lire(choix)
+             *         selon choix faire
+             *                           1 : écrire("entrez la valeur du côté A : ")
+             *                               lire(a)
+             *                               écrire("entrez la valeur du côté B : ")
+             *                               lire(b)
+             *                               c <- racine(a^2 + b^2)
+             *                               écrire("l'hypothénuse du triangle ABC vaut: ",c)
+             *                           2 : écrire("Entrez la valeur du premier côté : ")
+             *                               lire(e)
+             *                               écrire("Entrez la valeur du second côté : ")
+             *                               lire(f)
+             *                               écrire("Entrez la valeur du troisième côté : ")
+             *                               lire(g)
+             *                               H <- g^2
+             *                               I <- e^2
+             *                               j <- f^2
+             *                               A <- I + J
+             *                               si A = H alors
+             *                                  écrire("Votre triangle n'est pas rectangle")
+             *                                        sinon
+             *                                  écrire("Votre triangle n'est pas rectangle")
+             *                               FinSi
+             *        FinSelon
+             * Fin
+             */
+            float a, b, c;
+            int Choix;
+
+            Console.WriteLine("1 -> Donner la valeur de l'hypothénuse");
+            Console.WriteLine("2 -> Donner 3 valeurs de côté pour savoir si votre triangle est rectangle");
+
+            Choix = int.Parse(Console.ReadLine());
+
+            switch (Choix) {
+
+               
+            
+            
+                case 1:
+                    Console.WriteLine("Entrez la valeur du côté A : ");
+            //lire A
+
+            a = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Entrez la valeur de B : ");
+            //lire B
+
+            b = int.Parse(Console.ReadLine());
+
+            c = (float)Math.Sqrt((a * a) + (b * b));
+            //d = (float)Math.Sqrt(c);
+
+            Console.WriteLine("L'hypothénuse du triangle ABC vaut : " + c);
+            break;
+
+            case 2:
+            int e, f, g, H, I, J, A;
+
+            Console.WriteLine("Entrez la valeur du premier côté : ");
+            e = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Entrez la valeur du second côté : ");
+            f = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Entrez la valeur du troisième côté : ");
+            g = int.Parse(Console.ReadLine());
+            H = g * g;
+            I = e * e;
+            J = f * f;
+            A = I + J;
+            if (H == A) {
+
+                Console.WriteLine("Votre triangle est rectangle");
+            }
+            else
+            {
+                Console.WriteLine("Votre triangle n'est pas rectangle");
+            }
+            break;
+        }
+        

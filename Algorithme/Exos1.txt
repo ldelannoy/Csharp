@@ -1,0 +1,76 @@
+﻿ /*
+             Algorithme div_par_3
+            Variables
+                     c : entier
+                    
+            Début
+                    écrire ("entrez un nombre entier :")
+                    lire (c)
+                    Si c%3 = 0 alors
+                        écrire(c," est divisible par 3")
+                    Sinon
+                        écrire(c," n'est pas divisible par 3")
+                    FinSi 
+            Fin
+             */
+            /*int c;
+
+            Console.WriteLine("entrez un nombre entier : ");
+            c = int.Parse(Console.ReadLine());
+            if(c%3==0)
+            {
+                Console.WriteLine("Le nombre est divisible par 3 ");
+            }
+            else
+            {
+                Console.WriteLine("Le nombre n'est pas divisible par 3");
+            }
+
+            */
+            /* int a, b;
+
+             Console.WriteLine("Entrez la valeur de a : ");
+             //lire a
+
+             a = int.Parse(Console.ReadLine());
+
+             b = 2 * a;
+
+
+             Console.WriteLine("Le double de " + a + " est égal à " + b);
+
+
+             */
+
+            /*
+             * Algorithme Choix_utilisateur
+             * Variable
+             *      choix :entier
+             * Début
+             * écrire("1-->Redémarrer l'ordinateur ")
+             * écrire("2-->Mettre en veille l'ordinateur")
+             * écrire("3-->Arrêter l'ordinateur ")
+             * lire(choix)
+             * Selon choix Faire
+             *                  1 : écrire("L'ordinateur va redémarrer")
+             *                  2 : écrire("L'ordinateur va se mettre en veille")
+             *                  3 : écrire("L'ordinateur va s'arrêter")
+             *FinSelon
+             * Fin
+             */
+            /*int mon_choix;
+
+            Console.WriteLine("1-->Redémarrer l'ordinateur ");
+            Console.WriteLine("2-->Mettre en veille l'ordinateur");
+            Console.WriteLine("3-->Arrêter l'ordinateur ");
+
+            mon_choix = int.Parse(Console.ReadLine());
+
+            switch (mon_choix)
+            {
+                case 1: Console.WriteLine("L'ordinateur va redémarrer");
+                    break;
+                case 2: Console.WriteLine("L'ordinateur va se mettre en veille");
+                    break;
+                case 3: Console.WriteLine("L'ordinateur va s'arrêter");
+                    break;
